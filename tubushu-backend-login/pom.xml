@@ -6,10 +6,10 @@
 		<artifactId>tuboshu-backend</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>tubushu-backend-login-8001</artifactId>
+	<artifactId>tuboshu-backend-provider-login-8001</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<groupId>tuboshu-backend</groupId>
-	<name>tubushu-backend-login-8001</name>
+	<name>tubushu-backend-provider-login-8001</name>
 	<dependencies>
 		<!-- 引入自己定义的api通用包 -->
 		<dependency>
@@ -78,7 +78,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>tubushu-backend-login-8001</finalName>
+		<finalName>tubushu-backend-provider-login-8001</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -111,10 +111,10 @@
 			</plugin>
 		</plugins>
 	</build>
-	  <repositories>
-    <repository>
-      <id>spring-milestone</id>
-      <url>http://repo.spring.io/libs-release</url>
-    </repository>
-  </repositories>
+	<repositories>
+	    <repository>
+	      <id>spring-milestone</id>
+	      <url>http://repo.spring.io/libs-release</url>
+	    </repository>
+   </repositories>
 </project>
